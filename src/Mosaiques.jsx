@@ -1,12 +1,18 @@
 import React, { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import "./Mosaiques.css";
 import { dataLicornes } from "./data/dataLicornes.jsx";
 
 export default function Mosaiques() {
+  const navigate = useNavigate();
   return (
     <main className="mainMosaiques">
-      {dataLicornes.map(({ name, logo, banner, description, tags }) => (
-        <a href="" className="mosaique">
+      {dataLicornes.map(({ name, logo, banner, description, tags }, index) => (
+        <button
+          className="mosaique"
+          onClick={() => navigate("/" + name)}
+          key={index}
+        >
           <div className="bannerMosaique">
             <img src={banner} alt={"Banner of " + { name }} />
           </div>
@@ -24,7 +30,7 @@ export default function Mosaiques() {
             ))}
           </div>
           <div className="descMosaique">{description}</div>
-        </a>
+        </button>
       ))}
     </main>
   );
