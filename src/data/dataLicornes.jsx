@@ -53,6 +53,13 @@ export const dataLicornes = [
         who: "",
       },
     ],
+    networks: [
+      {
+        website: "https://www.lydia-app.com/",
+        linkedin: "https://www.linkedin.com/company/lydia/",
+        twitter: "https://twitter.com/applydia",
+      },
+    ],
   },
   {
     name: "Qonto",
@@ -64,6 +71,13 @@ export const dataLicornes = [
     tags: ["💸 fintech", "💻 tech"],
     valuation: "12M€",
     raised: "262M€",
+    networks: [
+      {
+        website: "https://qonto.fr/",
+        linkedin: "https://www.linkedin.com/company/qonto/",
+        twitter: "https://twitter.com/getqonto",
+      },
+    ],
   },
   {
     name: "Veepee",
@@ -75,6 +89,13 @@ export const dataLicornes = [
     tags: ["👕 clothes"],
     valuation: "12M€",
     raised: "262M€",
+    networks: [
+      {
+        website: "https://www.veepee.fr/",
+        linkedin: "https://www.linkedin.com/company/veepee/",
+        twitter: "https://twitter.com/veepee",
+      },
+    ],
   },
   {
     name: "EcoVadis",
@@ -88,8 +109,81 @@ export const dataLicornes = [
     raised: "262M€",
     networks: [
       {
+        website: "https://ecovadis.com/",
         linkedin: "https://www.linkedin.com/company/ecovadis/",
         twitter: "https://twitter.com/ecovadis",
+      },
+    ],
+  },
+  {
+    name: "Vestiaire collective",
+    logo: "https://pbs.twimg.com/profile_images/1051947627741437954/7UH8l5Pv_400x400.jpg",
+    banner:
+      "https://pbs.twimg.com/profile_banners/50748888/1647858682/1500x500",
+    description:
+      "Vestiaire Collective is an online marketplace for buying and selling pre-owned luxury fashion items.",
+    tags: ["🍃 impact", "⚡️ energy"],
+    valuation: "12M€",
+    raised: "262M€",
+    networks: [
+      {
+        website: "http://www.vestiairecollective.com",
+        linkedin: "https://www.linkedin.com/company/vestiaireco/",
+        twitter: "https://twitter.com/vestiaireco",
+      },
+    ],
+  },
+  {
+    name: "Shift Technology",
+    logo: "https://pbs.twimg.com/profile_images/1503797942293041155/0CY9-8sj_400x400.jpg",
+    banner:
+      "https://pbs.twimg.com/profile_banners/724292418351280128/1647368344/1500x500",
+    description:
+      "Shift Technology is an insurtech company that utilizes AI to automate claims processing and detect fraud in insurance industry.",
+    tags: ["💻 tech"],
+    valuation: "12M€",
+    raised: "262M€",
+    networks: [
+      {
+        website: "https://www.shift-technology.com/",
+        linkedin: "https://www.linkedin.com/company/shift-technology/",
+        twitter: "https://twitter.com/shiftechnology",
+      },
+    ],
+  },
+  {
+    name: "Ivalua",
+    logo: "https://pbs.twimg.com/profile_images/1222100182680113153/nl248jFF_400x400.jpg",
+    banner:
+      "https://pbs.twimg.com/profile_banners/90960350/1594968965/1500x500",
+    description:
+      "Ivalua is a software company providing cloud-based procurement and spend management solutions for businesses of all sizes.",
+    tags: ["💻 tech"],
+    valuation: "12M€",
+    raised: "262M€",
+    networks: [
+      {
+        website: "https://www.ivalua.com/",
+        linkedin: "https://www.linkedin.com/company/ivalua/",
+        twitter: "https://twitter.com/ivalua",
+      },
+    ],
+  },
+  {
+    name: "Deezer",
+    logo: "https://pbs.twimg.com/profile_images/1263469903950106626/zCK-Zj1Q_400x400.png",
+    banner:
+      "https://pbs.twimg.com/profile_banners/375861459/1671741311/1500x500",
+    description:
+      "Deezer is a music streaming service that provides users access to a vast library of songs and personalized playlists for a monthly subscription fee.",
+    tags: ["💻 tech", "🎵 musique"],
+    valuation: "12M€",
+    raised: "262M€",
+    networks: [
+      {
+        website: "https://www.deezer.com/",
+        linkedin: "https://www.linkedin.com/company/deezer/",
+        twitter: "https://twitter.com/deezer",
       },
     ],
   },
