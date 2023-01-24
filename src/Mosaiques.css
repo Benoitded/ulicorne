@@ -1,0 +1,147 @@
+.mainMosaiques {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    justify-content: space-between;
+    max-width: 1000px;
+    width: 95vw;
+    margin: 20px auto;
+    gap: 20px;
+}
+
+.mosaique {
+    width: 100%;
+    /* height: 300px; */
+    border-radius: 8px;
+    background: #242424;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+    padding: 30px;
+    box-sizing: border-box;
+    transition: 0.2s;
+    gap: 10px
+}
+
+.mosaique * {
+    transition: 0.2s;
+}
+
+.mosaique:hover {
+    transform: scale(1.04);
+    background: #2b2b2b;
+}
+
+.mosaique:hover .logoMosaique {
+    transform: translateY(-10px);
+}
+
+.bannerMosaique {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 120px;
+    background-size: cover;
+}
+
+.bannerMosaique>* {
+    height: 100%;
+}
+
+.logoAnameMosaique {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    gap: 20px;
+    margin-left: -10px;
+}
+
+.logoMosaique {
+    width: 100px;
+    border-radius: 100%;
+    filter: drop-shadow(5px 5px 4px rgba(0, 0, 0, 0.5));
+}
+
+.nameMosaique {
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.nameMosaique:hover {
+    color: #AAAAAA;
+}
+
+
+/*Tags*/
+
+.tags {
+    display: flex;
+    width: 100%;
+    margin-top: 5px;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.tag {
+    font-weight: 500;
+    padding: 5px 13px;
+    background-color: #414141;
+    border-radius: 100px;
+}
+
+.tag:hover {
+    background-color: #5d5d5d;
+}
+
+.descMosaique {
+    text-align: left;
+}
+
+
+/*Responsive*/
+
+@media only screen and (max-width: 850px) {
+    .mosaique {
+        padding: 10px;
+    }
+    .logoAnameMosaique {
+        margin-left: inherit;
+        margin-top: 70px;
+        gap: 15px;
+    }
+    .bannerMosaique {
+        height: 100px;
+    }
+    .logoMosaique {
+        width: 80px;
+    }
+    .tag {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .mainMosaiques {
+        grid-template-columns: 1fr 1fr;
+    }
+    .mosaique {
+        padding: 10px;
+    }
+    .logoAnameMosaique {
+        margin-left: inherit;
+        margin-top: 80px;
+        gap: 10px;
+    }
+    .bannerMosaique {
+        height: 100px;
+    }
+    .logoMosaique {
+        width: 60px;
+    }
+    .tag {
+        font-size: 12px;
+    }
+}

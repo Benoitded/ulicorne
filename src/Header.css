@@ -1,0 +1,85 @@
+.mainHeader {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    width: 95vw;
+    margin: 20px auto;
+    gap: 100px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.searchBar {
+    width: fit-content;
+    background-color: #242424;
+    border-radius: 100px;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.btnSearch {
+    border: none;
+    background: none;
+    width: 60px;
+    height: 100%;
+    cursor: pointer;
+    stroke: #3C3C3C;
+    transition: 0.2s;
+}
+
+.btnSearch:hover {
+    stroke: #777777;
+}
+
+.btnSearch:active {
+    transform: translate(1px, 3px);
+}
+
+.inputSearch {
+    width: 100%;
+    height: 40px;
+    border: none;
+    background: none;
+    color: white;
+}
+
+.unicorne {
+    background-color: hsl(0, 0%, 14%);
+    width: 30px;
+    padding: 0 8px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    text-align: center;
+    border-radius: 8px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.unicorne:hover {
+    background-color: #3f3f3f;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+
+/*Responsive*/
+
+@media only screen and (max-width: 650px) {
+    .mainHeader {
+        gap: 10px
+    }
+}

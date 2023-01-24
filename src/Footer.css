@@ -1,0 +1,23 @@
+.mainFooter {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    width: 95vw;
+    margin: 20px auto;
+    padding-top: 20px;
+    border-top: 1px solid #242424;
+    color: #242424;
+    text-align: left;
+}
+
+.mainFooter * {
+    transition: 0.2s;
+}
+
+.linkFooter:hover {
+    color: #bcbcbc;
+}
+
+.rightFooter {
+    flex: none;
+}
