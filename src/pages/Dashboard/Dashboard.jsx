@@ -15,11 +15,12 @@ export default function Dashboard() {
   const [contentDashboard, setContentDashboard] = useState(
     dataLicornes.filter((item) => item.name === unicorn)[0]
   );
-  const [founders, setFounders] = useState(
-    dataFounders.filter((item) => item.startup === unicorn)[0].founders
-  );
-  console.log("dataFounders");
-  console.log(dataFounders);
+  const [founders, setFounders] = useState();
+  const filteredFounders = dataFounders.filter(
+    (item) => item.startup === unicorn
+  )[0];
+  if (filteredFounders && filteredFounders.founders !== founders)
+    setFounders(filteredFounders.founders);
 
   return (
     <main className="mainDashboard">

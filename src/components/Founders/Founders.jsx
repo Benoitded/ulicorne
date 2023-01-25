@@ -26,7 +26,11 @@ export default function Founders({ dataFounders }) {
   //   )[0];
   //   console.log("school");
   //   console.log(school);
-
+  if (!dataFounders) {
+    return (
+      <div className="mainFounders error">No founder to diplay so far.</div>
+    );
+  }
   return (
     <div className="mainFounders">
       {dataFounders.map((e, index) => {

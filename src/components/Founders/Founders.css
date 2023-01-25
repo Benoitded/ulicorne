@@ -4,6 +4,11 @@
     gap: 20px;
 }
 
+.mainFounders.error {
+    justify-content: center;
+    align-items: center;
+}
+
 .founder {
     background-color: #484848;
     border-radius: 8px;
