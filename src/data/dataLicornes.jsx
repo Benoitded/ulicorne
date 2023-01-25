@@ -171,4 +171,20 @@ export const dataLicornes = [
       twitter: "www.twitter.com/deezer",
     },
   },
+  {
+    name: "Blablacar",
+    logo: "https://pbs.twimg.com/profile_images/958196201815445507/YmtYvTY3_400x400.jpg",
+    banner:
+      "https://pbs.twimg.com/profile_banners/4218134314/1641227506/1500x500",
+    description:
+      "BlaBlaCar is a long-distance ride sharing platform that connects drivers with empty seats to passengers looking for a ride.",
+    tags: ["💻 tech", "🍃 impact"],
+    valuation: "12M€",
+    raised: "262M€",
+    networks: {
+      website: "www.blablacar.com/",
+      linkedin: "www.linkedin.com/company/blablacar/",
+      twitter: "www.twitter.com/blablacar",
+    },
+  },
 ];

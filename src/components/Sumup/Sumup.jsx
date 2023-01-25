@@ -13,12 +13,16 @@ const imageSources = {
 
 export default function Sumup({ element }) {
   return (
-    <div className="mosaique">
+    <div className="mosaique dashboard">
       <div className="bannerMosaique">
-        <img src={element.banner} alt={"Banner of "} />
+        <img src={element.banner} alt={"Banner of " + element.name} />
       </div>
       <div className="logoAnameMosaique">
-        <img src={element.logo} alt={"Logo of "} className="logoMosaique" />
+        <img
+          src={element.logo}
+          alt={"Logo of " + element.name}
+          className="logoMosaique"
+        />
         <div className="nameMosaique">{element.name}</div>
       </div>
       <div className="tags">
@@ -29,7 +33,7 @@ export default function Sumup({ element }) {
         ))}
       </div>
       <div className="descMosaique">{element.description}</div>
-      <div className="tags">
+      <div className="listNetworks">
         {Object.keys(element.networks).map((key, index) => (
           <a
             href={element.networks[key]}

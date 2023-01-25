@@ -1,3 +1,94 @@
 .mainFounders {
     grid-area: 2 / 1 / 3 / 3;
+    display: flex;
+    gap: 20px;
+}
+
+.founder {
+    background-color: #484848;
+    border-radius: 8px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px;
+    gap: 20px;
+    box-sizing: border-box;
+}
+
+.firstLineFounder {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.imgFounder {
+    height: 150px;
+    border-radius: 8px;
+}
+
+.rightFirstLineFounder {
+    text-align: left;
+    align-items: flex-start;
+}
+
+.nameFounder {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.networksFounder {
+    display: flex;
+    gap: 8px;
+    margin-top: 5px;
+}
+
+.networkFounder {
+    display: flex;
+    align-items: center;
+    transition: 0.2s;
+    opacity: 0.5;
+}
+
+.networkFounder:hover {
+    opacity: 1;
+    transform: translate(-1px, -2px);
+}
+
+
+/*Second line founder*/
+
+.secondLineFounder {
+    display: flex;
+    width: 100%;
+}
+
+.secondLineFounder>* {
+    width: 100%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.secondLineFounder>*:first-child {
+    border-right: 1px solid #898989;
+    padding-right: 10px;
+}
+
+.secondLineFounder>*:last-child {
+    padding-left: 10px;
+}
+
+.educationFounder {}
+
+@media only screen and (max-width: 650px) {
+    .mainFounders {
+        grid-area: inherit;
+        flex-direction: column;
+    }
+    .founder {
+        padding: 10px;
+    }
 }

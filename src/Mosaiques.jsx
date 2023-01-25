@@ -14,14 +14,10 @@ export default function Mosaiques({ dataLicornes }) {
           key={index}
         >
           <div className="bannerMosaique">
-            <img src={banner} alt={"Banner of " + { name }} />
+            <img src={banner} alt={"Banner of " + name} />
           </div>
           <div className="logoAnameMosaique">
-            <img
-              src={logo}
-              alt={"Logo of " + { name }}
-              className="logoMosaique"
-            />
+            <img src={logo} alt={"Logo of " + name} className="logoMosaique" />
             <div className="nameMosaique">{name}</div>
           </div>
           <div className="tags">

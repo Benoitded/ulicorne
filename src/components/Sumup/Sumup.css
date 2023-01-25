@@ -1,3 +1,10 @@
+.listNetworks {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    gap: 5px;
+}
+
 .networks {
     display: flex;
     gap: 7px;
@@ -10,4 +17,13 @@
 
 .logoNetworks {
     width: 20px;
+}
+
+@media only screen and (max-width: 650px) {
+    .mosaique.dashboard>.bannerMosaique {
+        height: 32vw;
+    }
+    .mosaique.dashboard>.logoAnameMosaique {
+        margin-top: 27vw;
+    }
 }

@@ -6,7 +6,7 @@ export const dataFounders = [
         name: "Cyril Chiche",
         photo:
           "https://pbs.twimg.com/profile_images/917023861538992128/QnHTJlhm_400x400.jpg",
-        role: "CEO",
+        title: "CEO",
         school: "ISG",
         master: "Master, International Sales and Marketing",
         graduateYear: "1995",
@@ -19,8 +19,8 @@ export const dataFounders = [
       {
         name: "Antoine Porte",
         photo:
-          "https://pbs.twimg.com/profile_images/917023861538992128/QnHTJlhm_400x400.jpg",
-        role: "CPO",
+          "https://pbs.twimg.com/profile_images/663995836255326209/crkJD89F_400x400.jpg",
+        title: "CPO",
         school: "Panthéon-Assas",
         master: "M2, Management des NTIC",
         graduateYear: "2009",
@@ -40,7 +40,7 @@ export const dataFounders = [
         name: "Alexandre Prot",
         photo:
           "https://pbs.twimg.com/profile_images/1481264976476225543/wvJqUg9q_400x400.jpg",
-        role: "CEO",
+        title: "CEO",
         school: "HEC",
         master: "Master in Finance",
         graduateYear: "2006",
@@ -55,7 +55,7 @@ export const dataFounders = [
         name: "Steve Anavi",
         photo:
           "https://pbs.twimg.com/profile_images/1481264976476225543/wvJqUg9q_400x400.jpg",
-        role: "President",
+        title: "President",
         school: "EPFL",
         master: "Master of Science (MSc), Microtechnical Engineering",
         graduateYear: "2006",
@@ -63,6 +63,26 @@ export const dataFounders = [
         networks: {
           linkedin: "https://www.linkedin.com/in/steveanavi/",
           crunchbase: "https://www.crunchbase.com/person/steve-anavi",
+        },
+      },
+    ],
+  },
+  {
+    startup: "Blablacar",
+    founders: [
+      {
+        name: "Frédéric Mazzella",
+        photo:
+          "https://pbs.twimg.com/profile_images/751070452060225537/MVP5IXVj_400x400.jpg",
+        title: "CEO",
+        school: "ENS",
+        master: "Masters, Physics",
+        graduateYear: "2001",
+        birthdate: "09/03/1976",
+        networks: {
+          linkedin: "https://www.linkedin.com/in/fredericmazzella/",
+          twitter: "https://twitter.com/mazaic",
+          crunchbase: "https://www.crunchbase.com/person/frdric-mazzella",
         },
       },
     ],

@@ -15,16 +15,17 @@ export default function Dashboard() {
   const [contentDashboard, setContentDashboard] = useState(
     dataLicornes.filter((item) => item.name === unicorn)[0]
   );
-  console.log("contentDashboard");
-  console.log(contentDashboard);
+  const [founders, setFounders] = useState(
+    dataFounders.filter((item) => item.startup === unicorn)[0].founders
+  );
+  console.log("dataFounders");
+  console.log(dataFounders);
 
   return (
     <main className="mainDashboard">
       <Sumup element={contentDashboard} />
       <Chartboard />
-      <Founders dataFounders={dataFounders} />
-      <div>{unicorn}</div>
-      <div>{contentDashboard.description}</div>
+      <Founders dataFounders={founders} />
     </main>
   );
 }

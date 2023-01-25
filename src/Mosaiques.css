@@ -50,6 +50,7 @@
     transform: translateX(-50%);
     height: 120px;
     background-size: cover;
+    background: white;
 }
 
 .bannerMosaique>* {
