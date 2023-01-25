@@ -53,13 +53,11 @@ export const dataLicornes = [
         who: "",
       },
     ],
-    networks: [
-      {
-        website: "https://www.lydia-app.com/",
-        linkedin: "https://www.linkedin.com/company/lydia/",
-        twitter: "https://twitter.com/applydia",
-      },
-    ],
+    networks: {
+      website: "www.lydia-app.com/",
+      linkedin: "www.linkedin.com/company/lydia/",
+      twitter: "www.twitter.com/applydia",
+    },
   },
   {
     name: "Qonto",
@@ -71,13 +69,11 @@ export const dataLicornes = [
     tags: ["💸 fintech", "💻 tech"],
     valuation: "12M€",
     raised: "262M€",
-    networks: [
-      {
-        website: "https://qonto.fr/",
-        linkedin: "https://www.linkedin.com/company/qonto/",
-        twitter: "https://twitter.com/getqonto",
-      },
-    ],
+    networks: {
+      website: "www.qonto.fr/",
+      linkedin: "www.linkedin.com/company/qonto/",
+      twitter: "www.twitter.com/getqonto",
+    },
   },
   {
     name: "Veepee",
@@ -89,13 +85,11 @@ export const dataLicornes = [
     tags: ["👕 clothes"],
     valuation: "12M€",
     raised: "262M€",
-    networks: [
-      {
-        website: "https://www.veepee.fr/",
-        linkedin: "https://www.linkedin.com/company/veepee/",
-        twitter: "https://twitter.com/veepee",
-      },
-    ],
+    networks: {
+      website: "www.veepee.fr/",
+      linkedin: "www.linkedin.com/company/veepee/",
+      twitter: "www.twitter.com/veepee",
+    },
   },
   {
     name: "EcoVadis",
@@ -107,13 +101,11 @@ export const dataLicornes = [
     tags: ["🍃 impact", "⚡️ energy"],
     valuation: "12M€",
     raised: "262M€",
-    networks: [
-      {
-        website: "https://ecovadis.com/",
-        linkedin: "https://www.linkedin.com/company/ecovadis/",
-        twitter: "https://twitter.com/ecovadis",
-      },
-    ],
+    networks: {
+      website: "www.ecovadis.com/",
+      linkedin: "www.linkedin.com/company/ecovadis/",
+      twitter: "www.twitter.com/ecovadis",
+    },
   },
   {
     name: "Vestiaire collective",
@@ -125,13 +117,11 @@ export const dataLicornes = [
     tags: ["🍃 impact", "⚡️ energy"],
     valuation: "12M€",
     raised: "262M€",
-    networks: [
-      {
-        website: "http://www.vestiairecollective.com",
-        linkedin: "https://www.linkedin.com/company/vestiaireco/",
-        twitter: "https://twitter.com/vestiaireco",
-      },
-    ],
+    networks: {
+      website: "www.vestiairecollective.com",
+      linkedin: "www.linkedin.com/company/vestiaireco/",
+      twitter: "www.twitter.com/vestiaireco",
+    },
   },
   {
     name: "Shift Technology",
@@ -140,16 +130,14 @@ export const dataLicornes = [
       "https://pbs.twimg.com/profile_banners/724292418351280128/1647368344/1500x500",
     description:
       "Shift Technology is an insurtech company that utilizes AI to automate claims processing and detect fraud in insurance industry.",
-    tags: ["💻 tech"],
+    tags: ["💻 tech", "🍃 impact", "⚡️ energy"],
     valuation: "12M€",
     raised: "262M€",
-    networks: [
-      {
-        website: "https://www.shift-technology.com/",
-        linkedin: "https://www.linkedin.com/company/shift-technology/",
-        twitter: "https://twitter.com/shiftechnology",
-      },
-    ],
+    networks: {
+      website: "www.shift-technology.com/",
+      linkedin: "www.linkedin.com/company/shift-technology/",
+      twitter: "www.twitter.com/shiftechnology",
+    },
   },
   {
     name: "Ivalua",
@@ -161,13 +149,11 @@ export const dataLicornes = [
     tags: ["💻 tech"],
     valuation: "12M€",
     raised: "262M€",
-    networks: [
-      {
-        website: "https://www.ivalua.com/",
-        linkedin: "https://www.linkedin.com/company/ivalua/",
-        twitter: "https://twitter.com/ivalua",
-      },
-    ],
+    networks: {
+      website: "www.ivalua.com/",
+      linkedin: "www.linkedin.com/company/ivalua/",
+      twitter: "www.twitter.com/ivalua",
+    },
   },
   {
     name: "Deezer",
@@ -175,16 +161,14 @@ export const dataLicornes = [
     banner:
       "https://pbs.twimg.com/profile_banners/375861459/1671741311/1500x500",
     description:
-      "Deezer is a music streaming service that provides users access to a vast library of songs and personalized playlists for a monthly subscription fee.",
-    tags: ["💻 tech", "🎵 musique"],
+      "Ecovadis is a sustainability rating and assessment platform for suppliers, providing companies with CSR performance scores and actionable insights.",
+    tags: ["💻 tech", "🎵 music"],
     valuation: "12M€",
     raised: "262M€",
-    networks: [
-      {
-        website: "https://www.deezer.com/",
-        linkedin: "https://www.linkedin.com/company/deezer/",
-        twitter: "https://twitter.com/deezer",
-      },
-    ],
+    networks: {
+      website: "www.deezer.com/",
+      linkedin: "www.linkedin.com/company/deezer/",
+      twitter: "www.twitter.com/deezer",
+    },
   },
 ];

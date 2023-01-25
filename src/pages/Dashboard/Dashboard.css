@@ -1,0 +1,14 @@
+.mainDashboard {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    max-width: 1000px;
+    width: 95vw;
+    margin: 20px auto;
+    gap: 20px
+}
+
+.mainDashboard>* {
+    background-color: #242424;
+    border-radius: 8px;
+    padding: 30px;
+}

@@ -1,0 +1,14 @@
+#chart * {}
+
+.apexcharts-menu-item {
+    color: black;
+}
+
+.apexcharts-tooltip {
+    color: black;
+}
+
+.apexcharts-yaxis *,
+.apexcharts-xaxis * {
+    /* fill: white; */
+}

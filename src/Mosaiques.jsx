@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import "./Mosaiques.css";
-import { dataLicornes } from "./data/dataLicornes.jsx";
+//import { dataLicornes } from "./data/dataLicornes.jsx";
 
-export default function Mosaiques() {
+export default function Mosaiques({ dataLicornes }) {
   const navigate = useNavigate();
   return (
     <main className="mainMosaiques">
@@ -25,8 +25,10 @@ export default function Mosaiques() {
             <div className="nameMosaique">{name}</div>
           </div>
           <div className="tags">
-            {tags.map((e) => (
-              <div className="tag">{e}</div>
+            {tags.map((e, index) => (
+              <div className="tag" key={index}>
+                {e}
+              </div>
             ))}
           </div>
           <div className="descMosaique">{description}</div>

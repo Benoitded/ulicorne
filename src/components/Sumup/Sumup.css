@@ -1,0 +1,13 @@
+.networks {
+    display: flex;
+    gap: 7px;
+    color: #b0b0b0;
+}
+
+.networks:hover {
+    color: white;
+}
+
+.logoNetworks {
+    width: 20px;
+}

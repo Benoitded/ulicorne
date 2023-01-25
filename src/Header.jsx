@@ -5,7 +5,8 @@ import "./Header.css";
 import { ReactComponent as SearchLogo } from "./assets/searchLogo.svg";
 import { ReactComponent as UnicorneLogo } from "./assets/unicornLogo.svg";
 
-export default function Header() {
+export default function Header({ setSearch }) {
+  //const [search, setSearch] = useState();
   const navigate = useNavigate();
   return (
     <header className="mainHeader">
@@ -16,7 +17,12 @@ export default function Header() {
         <button className="btnSearch">
           <SearchLogo />
         </button>
-        <input className="inputSearch" type="text" placeholder="Search ..." />
+        <input
+          className="inputSearch"
+          type="text"
+          placeholder="Search ..."
+          onChange={(e) => setSearch(e.target.value)}
+        />
       </div>
       <div className="unicorne">
         <UnicorneLogo />
