@@ -11,6 +11,15 @@
     font-size: 24px;
     font-weight: 700;
     cursor: pointer;
+    transition: 1s;
+}
+
+.logo:hover {
+    background: linear-gradient(93.45deg, #A5A5A5 -15.41%, #C19EED -15.4%, #BC756B 89.88%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
 }
 
 .searchBar {
