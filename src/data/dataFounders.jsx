@@ -54,7 +54,7 @@ export const dataFounders = [
       {
         name: "Steve Anavi",
         photo:
-          "https://pbs.twimg.com/profile_images/1481264976476225543/wvJqUg9q_400x400.jpg",
+          "https://res.cloudinary.com/crunchbase-production/image/upload/c_thumb,h_170,w_170,f_auto,g_faces,z_0.7,b_white,q_auto:eco,dpr_1/v1481734381/u8m1kdpon9lg9tvwmhrv.png",
         title: "President",
         school: "EPFL",
         master: "Master of Science (MSc), Microtechnical Engineering",
@@ -83,6 +83,42 @@ export const dataFounders = [
           linkedin: "https://www.linkedin.com/in/fredericmazzella/",
           twitter: "https://twitter.com/mazaic",
           crunchbase: "https://www.crunchbase.com/person/frdric-mazzella",
+        },
+      },
+    ],
+  },
+  {
+    startup: "Veepee",
+    founders: [
+      {
+        name: "Jacques-Antoine Granjon",
+        photo:
+          "https://pbs.twimg.com/profile_images/879049284913680386/ySvkRvNg_400x400.jpg",
+        title: "CEO",
+        school: "EBS",
+        master: "...",
+        graduateYear: "...",
+        birthdate: "09/03/1976",
+        networks: {
+          linkedin: "https://www.linkedin.com/in/ja-granjon-859525176/",
+          twitter: "https://twitter.com/jagventeprivee",
+          crunchbase:
+            "https://www.crunchbase.com/person/jacques-antoine-granjon",
+          wikipedia: "https://fr.wikipedia.org/wiki/Jacques-Antoine_Granjon",
+        },
+      },
+      {
+        name: "Ilan Benhaim",
+        photo:
+          "https://pbs.twimg.com/profile_images/806135456945598464/dFF3CKAK_400x400.jpg",
+        title: "Partner",
+        school: "Neoma",
+        master: "Programme grande école, Business",
+        graduateYear: "2000",
+        birthdate: "09/03/1976",
+        networks: {
+          linkedin: "https://www.linkedin.com/in/ilan-benhaim-5038191/",
+          twitter: "https://twitter.com/ilanbenhaim",
         },
       },
     ],

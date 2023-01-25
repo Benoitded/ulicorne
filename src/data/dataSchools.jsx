@@ -86,7 +86,37 @@ export const dataSchools = [
       linkedin: "https://www.linkedin.com/school/ecolenormalesuperieure/",
       twitter: "https://twitter.com/ENS_ULM",
     },
-    country: "Suisse",
-    city: "Lausanne",
+    country: "France",
+    city: "Paris",
+  },
+  {
+    school: "EBS",
+    fullName: "EBS Paris - European Business School",
+    logo: "https://pbs.twimg.com/profile_images/1542793364873134081/U81JPdS__400x400.jpg",
+    banner:
+      "https://pbs.twimg.com/profile_banners/277551749/1656665578/1500x500",
+    ranking: "",
+    networks: {
+      website: "https://ebs-paris.fr/",
+      linkedin: "https://www.linkedin.com/school/ebs-paris/",
+      twitter: "https://twitter.com/ebs_Paris",
+    },
+    country: "France",
+    city: "Paris",
+  },
+  {
+    school: "Neoma",
+    fullName: "NEOMA Business School",
+    logo: "https://pbs.twimg.com/profile_images/1192352305812836352/2pjF49rz_400x400.png",
+    banner:
+      "https://pbs.twimg.com/profile_banners/1377242366/1647274903/1500x500",
+    ranking: "",
+    networks: {
+      website: "https://neoma-bs.fr/",
+      linkedin: "https://www.linkedin.com/school/neoma-business-school/",
+      twitter: "https://twitter.com/NEOMAbs",
+    },
+    country: "France",
+    city: "Paris",
   },
 ];
