@@ -74,4 +74,19 @@ export const dataSchools = [
     country: "Suisse",
     city: "Lausanne",
   },
+  {
+    school: "ENS",
+    fullName: "École Normale Supérieur",
+    logo: "https://pbs.twimg.com/profile_images/1348615771568660484/TtifuKnU_400x400.jpg",
+    banner:
+      "https://pbs.twimg.com/profile_banners/1259698710/1644593076/1500x500",
+    ranking: "",
+    networks: {
+      website: "https://www.ens.psl.eu/",
+      linkedin: "https://www.linkedin.com/school/ecolenormalesuperieure/",
+      twitter: "https://twitter.com/ENS_ULM",
+    },
+    country: "Suisse",
+    city: "Lausanne",
+  },
 ];
