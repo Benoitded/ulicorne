@@ -59,6 +59,22 @@
     color: white;
 }
 
+.eraseSearch {
+    margin-right: -30px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.eraseSearch svg path {
+    transition: 0.2s;
+}
+
+.eraseSearch:hover svg path {
+    fill: #777777;
+}
+
 .unicorne {
     background-color: hsl(0, 0%, 14%);
     width: 30px;

@@ -10,7 +10,7 @@ import Footer from "./Footer";
 
 import { dataLicornes } from "./data/dataLicornes.jsx";
 
-function App() {
+export default function App() {
   const [search, setSearch] = useState("");
   const [dataFiltered, setDataFiltered] = useState(dataLicornes);
   useEffect(() => {
@@ -30,14 +30,17 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Header setSearch={setSearch} />
+        <Header search={search} setSearch={setSearch} />
         <div className="App">
           <Routes>
             <Route
               path="/"
               element={<Mosaiques dataLicornes={dataFiltered} />}
             />
-            <Route path="/:unicorn" element={<Dashboard />} />
+            <Route
+              path="/:unicorn"
+              element={<Dashboard setSearch={setSearch} />}
+            />
           </Routes>
         </div>
       </Router>
@@ -45,5 +48,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
