@@ -10,8 +10,8 @@ import Founders from "../../components/Founders/Founders";
 export default function Dashboard() {
   const location = useLocation();
   let unicorn = location.pathname.substring(1).replaceAll("%20", " ");
-  console.log("unicorn");
-  console.log(unicorn);
+  //   console.log("unicorn");
+  //   console.log(unicorn);
   const [contentDashboard, setContentDashboard] = useState(
     dataLicornes.filter((item) => item.name === unicorn)[0]
   );

@@ -19,8 +19,8 @@ const imageSources = {
 };
 
 export default function Founders({ dataFounders }) {
-  console.log("dataFounders");
-  console.log(dataFounders);
+  //   console.log("dataFounders");
+  //   console.log(dataFounders);
   //   const school = dataSchools.filter(
   //     (item) => item.school === dataFounders[0].school
   //   )[0];
