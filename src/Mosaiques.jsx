@@ -3,8 +3,23 @@ import { useNavigate } from "react-router-dom";
 import "./Mosaiques.css";
 //import { dataLicornes } from "./data/dataLicornes.jsx";
 
-export default function Mosaiques({ dataLicornes }) {
+export default function Mosaiques({ dataLicornes, setSearch }) {
   const navigate = useNavigate();
+  function searchTag(e) {
+    e.stopPropagation(); //Don't click below
+    console.log(e.target.innerHTML);
+    setSearch("tech");
+  }
+  console.log(dataLicornes);
+  if (!dataLicornes.length) {
+    return (
+      <div className="error">
+        <div>
+          I do not find any startup with this name. Please try something else.
+        </div>
+      </div>
+    );
+  }
   return (
     <main className="mainMosaiques">
       {dataLicornes.map(({ name, logo, banner, description, tags }, index) => (
@@ -22,7 +37,7 @@ export default function Mosaiques({ dataLicornes }) {
           </div>
           <div className="tags">
             {tags.map((e, index) => (
-              <div className="tag" key={index}>
+              <div className="tag" key={index} onClick={searchTag}>
                 {e}
               </div>
             ))}
