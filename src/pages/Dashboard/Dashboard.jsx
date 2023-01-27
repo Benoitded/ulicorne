@@ -26,7 +26,7 @@ export default function Dashboard() {
     <main className="mainDashboard">
       <Sumup element={contentDashboard} />
       <Chartboard />
-      <Founders dataFounders={founders} />
+      <Founders selectedDataFounders={founders} />
     </main>
   );
 }

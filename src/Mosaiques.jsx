@@ -7,10 +7,10 @@ export default function Mosaiques({ dataLicornes, setSearch }) {
   const navigate = useNavigate();
   function searchTag(e) {
     e.stopPropagation(); //Don't click below
-    console.log(e.target.innerHTML);
+    //console.log(e.target.innerHTML);
     setSearch("tech");
   }
-  console.log(dataLicornes);
+  //console.log(dataLicornes);
   if (!dataLicornes.length) {
     return (
       <div className="error">

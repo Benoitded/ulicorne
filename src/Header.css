@@ -59,6 +59,8 @@
     color: white;
 }
 
+.inputSearch:hover {}
+
 .eraseSearch {
     margin-right: -30px;
     width: 20px;
@@ -94,10 +96,7 @@
     background-color: #3f3f3f;
 }
 
-input:focus,
-select:focus,
-textarea:focus,
-button:focus {
+input:focus {
     outline: none;
 }
 

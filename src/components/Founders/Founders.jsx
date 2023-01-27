@@ -9,6 +9,9 @@ import crunchbase from "../../assets/crunchbase.svg";
 import wikipedia from "../../assets/wikipedia.svg";
 
 import { dataSchools } from "../../data/dataSchools.jsx";
+import { dataFounders } from "../../data/dataFounders.jsx";
+
+import SchoolBox from "../../components/SchoolBox/SchoolBox";
 
 const imageSources = {
   website: website,
@@ -18,25 +21,37 @@ const imageSources = {
   wikipedia: wikipedia,
 };
 
-export default function Founders({ dataFounders }) {
-  //   console.log("dataFounders");
-  //   console.log(dataFounders);
+export default function Founders({ selectedDataFounders }) {
+  //   console.log("selectedDataFounders");
+  //   console.log(selectedDataFounders);
   //   const school = dataSchools.filter(
-  //     (item) => item.school === dataFounders[0].school
+  //     (item) => item.school === selectedDataFounders[0].school
   //   )[0];
   //   console.log("school");
   //   console.log(school);
-  if (!dataFounders) {
+
+  //const [listAlumnis, setListAlumnis] = useState();
+
+  if (!selectedDataFounders) {
     return (
       <div className="mainFounders error">No founder to diplay so far.</div>
     );
   }
   return (
     <div className="mainFounders">
-      {dataFounders.map((e, index) => {
+      {selectedDataFounders.map((e, index) => {
         const school = dataSchools.filter(
           (item) => item.school === e.school
         )[0];
+        // console.log("dataFounders");
+        // console.log(dataFounders);
+        const hecFounders = dataFounders
+          .map((startup) => startup.founders)
+          .flat()
+          .filter((founder) => founder.school === e.school);
+
+        // console.log("school");
+        // console.log(school);
         return (
           <div className="founder" key={index}>
             <div className="firstLineFounder">
@@ -60,6 +75,7 @@ export default function Founders({ dataFounders }) {
             </div>
             <div className="secondLineFounder">
               <div className="educationFounder">
+                <SchoolBox school={school} listAlumnis={hecFounders} />
                 <img
                   src={school.logo}
                   alt={"Logo of " + school.fullName}

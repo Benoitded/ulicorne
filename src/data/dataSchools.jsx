@@ -6,6 +6,7 @@ export const dataSchools = [
     banner:
       "https://pbs.twimg.com/profile_banners/35766159/1656935390/1500x500",
     ranking: "1",
+    type: "💰 business",
     networks: {
       website: "https://www.hec.edu/fr",
       linkedin: "https://www.linkedin.com/school/hec-paris/",
@@ -21,6 +22,7 @@ export const dataSchools = [
     banner:
       "https://pbs.twimg.com/profile_banners/36327536/1666883513/1500x500",
     ranking: "2",
+    type: "💰 business",
     networks: {
       website: "https://escp.eu/",
       linkedin: "https://www.linkedin.com/school/escp-business-school/",
@@ -35,6 +37,7 @@ export const dataSchools = [
     logo: "https://pbs.twimg.com/profile_images/1587744373420294147/Y1eXKMhH_400x400.jpg",
     banner: "https://pbs.twimg.com/profile_banners/8054872/1665649969/1500x500",
     ranking: "5",
+    type: "💰 business",
     networks: {
       website: "https://www.isg.fr/",
       linkedin:
@@ -51,6 +54,7 @@ export const dataSchools = [
     banner:
       "https://pbs.twimg.com/profile_banners/303849254/1663838623/1500x500",
     ranking: "",
+    type: "💰 business",
     networks: {
       website: "http://www.assas-universite.fr",
       linkedin: "https://www.linkedin.com/school/assasuniversite/",
@@ -66,6 +70,7 @@ export const dataSchools = [
     banner:
       "https://pbs.twimg.com/profile_banners/108364911/1668431787/1500x500",
     ranking: "",
+    type: "💰 business",
     networks: {
       website: "https://www.epfl.ch/en/",
       linkedin: "https://www.linkedin.com/school/epfl/",
@@ -81,6 +86,7 @@ export const dataSchools = [
     banner:
       "https://pbs.twimg.com/profile_banners/1259698710/1644593076/1500x500",
     ranking: "",
+    type: "💰 business",
     networks: {
       website: "https://www.ens.psl.eu/",
       linkedin: "https://www.linkedin.com/school/ecolenormalesuperieure/",
@@ -96,6 +102,7 @@ export const dataSchools = [
     banner:
       "https://pbs.twimg.com/profile_banners/277551749/1656665578/1500x500",
     ranking: "",
+    type: "💰 business",
     networks: {
       website: "https://ebs-paris.fr/",
       linkedin: "https://www.linkedin.com/school/ebs-paris/",
@@ -111,6 +118,7 @@ export const dataSchools = [
     banner:
       "https://pbs.twimg.com/profile_banners/1377242366/1647274903/1500x500",
     ranking: "",
+    type: "💰 business",
     networks: {
       website: "https://neoma-bs.fr/",
       linkedin: "https://www.linkedin.com/school/neoma-business-school/",

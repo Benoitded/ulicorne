@@ -1,0 +1,65 @@
+.schoolBox {
+    background-color: rgb(85, 85, 85);
+    position: absolute;
+    bottom: 100%;
+    width: 350px;
+    left: 0;
+    z-index: 2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    padding: 10px;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.2s;
+}
+
+.educationFounder:hover .schoolBox {
+    transition-delay: 1s;
+    visibility: visible;
+    opacity: 1;
+}
+
+.firstLineSchoolBox {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.descSchool.boxSchool {
+    width: 100%;
+}
+
+.lastLineDescSchoolBox {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    /* align-items: flex-end; */
+}
+
+.lastLineDescSchoolBox>*:last-child {
+    margin-top: -10px;
+}
+
+.alumnisSchoolBox {
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.picturesSchoolBox {
+    display: flex;
+    gap: -0px;
+}
+
+.pictureSchoolBox {
+    height: 40px;
+    border-radius: 100%;
+    margin-left: -12px;
+}
+
+.pictureSchoolBox:first-child {
+    margin-left: inherit;
+}
+
+.pictureSchoolBox:hover {
+    z-index: 3;
+}

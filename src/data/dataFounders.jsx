@@ -7,7 +7,7 @@ export const dataFounders = [
         photo:
           "https://pbs.twimg.com/profile_images/917023861538992128/QnHTJlhm_400x400.jpg",
         title: "CEO",
-        school: "ISG",
+        school: "HEC",
         master: "Master, International Sales and Marketing",
         graduateYear: "1995",
         birthdate: "21/09/1998",
