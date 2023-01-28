@@ -95,9 +95,9 @@
 
 .educationFounder {
     display: flex;
-    flex-direction: inherit;
+    flex-direction: initial;
     gap: 10px;
-    align-items: center;
+    width: 100%;
     position: relative;
 }
 
@@ -127,6 +127,14 @@
 
 .logoSchool {
     height: 70px;
+    border-radius: 8px;
+}
+
+.noSchool {
+    width: 70px;
+    min-width: 70px;
+    height: 70px;
+    background-color: #242424;
     border-radius: 8px;
 }
 

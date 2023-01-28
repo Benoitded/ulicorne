@@ -127,4 +127,36 @@ export const dataSchools = [
     country: "France",
     city: "Paris",
   },
+  {
+    school: "Université Côte d'Azur",
+    fullName: "Université Côte d'Azur",
+    logo: "https://pbs.twimg.com/profile_images/1498584601001877508/JU8hc19Y_400x400.png",
+    banner:
+      "https://pbs.twimg.com/profile_banners/71276583/1671533820/1500x500",
+    ranking: "",
+    type: "💻 engineering",
+    networks: {
+      website: "http://univ-cotedazur.fr",
+      linkedin: "https://www.linkedin.com/school/univ_cotedazur/",
+      twitter: "https://twitter.com/Univ_CotedAzur",
+    },
+    country: "France",
+    city: "Nice",
+  },
+  {
+    school: "INSEAD",
+    fullName: "Université Côte d'Azur",
+    logo: "https://pbs.twimg.com/profile_images/1278214683015753731/e2JKmK2l_400x400.jpg",
+    banner:
+      "https://pbs.twimg.com/profile_banners/113381235/1674492125/1500x500",
+    ranking: "",
+    type: "💰 business",
+    networks: {
+      website: "https://www.insead.edu",
+      linkedin: "https://www.linkedin.com/school/insead/",
+      twitter: "https://twitter.com/INSEAD",
+    },
+    country: "France",
+    city: "Fontainebleau",
+  },
 ];

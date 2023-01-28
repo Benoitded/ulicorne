@@ -22,8 +22,8 @@ const imageSources = {
 };
 
 export default function Founders({ selectedDataFounders }) {
-  //   console.log("selectedDataFounders");
-  //   console.log(selectedDataFounders);
+  console.log("selectedDataFounders");
+  console.log(selectedDataFounders);
   //   const school = dataSchools.filter(
   //     (item) => item.school === selectedDataFounders[0].school
   //   )[0];
@@ -40,18 +40,6 @@ export default function Founders({ selectedDataFounders }) {
   return (
     <div className="mainFounders">
       {selectedDataFounders.map((e, index) => {
-        const school = dataSchools.filter(
-          (item) => item.school === e.school
-        )[0];
-        // console.log("dataFounders");
-        // console.log(dataFounders);
-        const hecFounders = dataFounders
-          .map((startup) => startup.founders)
-          .flat()
-          .filter((founder) => founder.school === e.school);
-
-        // console.log("school");
-        // console.log(school);
         return (
           <div className="founder" key={index}>
             <div className="firstLineFounder">
@@ -74,20 +62,47 @@ export default function Founders({ selectedDataFounders }) {
               </div>
             </div>
             <div className="secondLineFounder">
-              <div className="educationFounder">
-                <SchoolBox school={school} listAlumnis={hecFounders} />
-                <img
-                  src={school.logo}
-                  alt={"Logo of " + school.fullName}
-                  className="logoSchool"
-                />
-                <div className="descSchool">
-                  <div className="nameSchool">{school.fullName}</div>
-                  <div>{e.master}</div>
-                  <div>{e.graduateYear}</div>
-                </div>
+              <div className="educationsFounder">
+                {e.schools.map((e) => {
+                  const school = dataSchools.filter(
+                    (item) => item.school === e.name
+                  )[0];
+                  //   console.log("school");
+                  //   console.log(school);
+                  const hecFounders = dataFounders
+                    .map((startup) => startup.founders)
+                    .flat()
+                    .filter((founder) =>
+                      founder.schools.some((school) => school.name === e.name)
+                    );
+                  return (
+                    <div className="educationFounder">
+                      {school ? (
+                        <SchoolBox school={school} listAlumnis={hecFounders} />
+                      ) : null}
+                      {school ? (
+                        <img
+                          src={school.logo}
+                          alt={"Logo of " + school.fullName}
+                          className="logoSchool"
+                        />
+                      ) : (
+                        <div className="noSchool" />
+                      )}
+                      <div className="descSchool">
+                        {school ? (
+                          <div className="nameSchool">{school.fullName}</div>
+                        ) : (
+                          <div className="nameSchool">{e.name}</div>
+                        )}
+                        <div>{e.master}</div>
+                        <div>{e.graduateYear}</div>
+                      </div>
+                    </div>
+                  );
+                })}
+                {/* <div className="experienceFounder">e</div> */}
               </div>
-              {/* <div className="experienceFounder">e</div> */}
             </div>
           </div>
         );

@@ -17,8 +17,8 @@ const countryFlag = {
 };
 
 export default function SchoolBox({ school, listAlumnis }) {
-  console.log("school.networks");
-  console.log(school.networks);
+  //   console.log("school.networks");
+  //   console.log(school.networks);
   return (
     <div className="schoolBox">
       <div className="firstLineSchoolBox">

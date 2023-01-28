@@ -121,6 +121,7 @@ export const dataLicornes = [
       website: "www.vestiairecollective.com",
       linkedin: "www.linkedin.com/company/vestiaireco/",
       twitter: "www.twitter.com/vestiaireco",
+      crunchbase: "https://www.crunchbase.com/organization/vestiairedecopines",
     },
   },
   {
