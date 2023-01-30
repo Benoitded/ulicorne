@@ -21,6 +21,9 @@ export default function SchoolBox({ school, listAlumnis }) {
   //   console.log(school.networks);
   return (
     <div className="schoolBox">
+      <div className="bannerSchool">
+        <img src={school.banner} alt={"Banner of " + school.name} />
+      </div>
       <div className="firstLineSchoolBox">
         <img
           src={school.logo}
@@ -29,7 +32,6 @@ export default function SchoolBox({ school, listAlumnis }) {
         />
         <div className="descSchool boxSchool">
           <div className="nameSchool">{school.fullName}</div>
-          {school.type ? <div className="tag">{school.type}</div> : null}
           <div className="lastLineDescSchoolBox">
             <div>
               {countryFlag[school.country]}&nbsp;
@@ -50,6 +52,8 @@ export default function SchoolBox({ school, listAlumnis }) {
           </div>
         </div>
       </div>
+
+      {school.type ? <div className="tag">{school.type}</div> : null}
       <div className="secondLineSchoolBox">
         <div className="alumnisSchoolBox">Alumnis:</div>
         <div className="picturesSchoolBox">
