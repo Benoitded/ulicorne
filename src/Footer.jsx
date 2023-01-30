@@ -7,7 +7,11 @@ export default function Footer() {
     <footer className="mainFooter">
       <div className="leftFooter">
         <div>
-          <a href="" className="linkFooter">
+          <a
+            href="https://twitter.com/benoitded"
+            target="_blank"
+            className="linkFooter"
+          >
             contact.
           </a>
         </div>
