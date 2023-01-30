@@ -1,0 +1,50 @@
+.filterBox {
+    background-color: #242424;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 5px;
+}
+
+.titleFilter {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.allFilters {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+}
+
+.oneFilter {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.nameFilter {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.oneFilter>*:not(:first-child) {
+    cursor: pointer;
+    border: none;
+    background-color: inherit;
+    color: rgb(213, 213, 213);
+    padding: 0;
+    font: inherit;
+}
+
+.oneFilter>*:not(:first-child):hover {
+    color: white;
+}
+
+@media only screen and (max-width: 650px) {
+    .allFilters {
+        grid-template-columns: 1fr 1fr;
+    }
+}

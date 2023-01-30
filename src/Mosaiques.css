@@ -114,6 +114,10 @@
 /*Responsive*/
 
 @media only screen and (max-width: 850px) {
+    .mainMosaiques {
+        gap: 15px;
+        margin: 15px auto;
+    }
     .mosaique {
         padding: 10px;
     }
@@ -136,6 +140,8 @@
 @media only screen and (max-width: 650px) {
     .mainMosaiques {
         grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        margin: 10px auto;
     }
     .mosaique {
         padding: 10px;

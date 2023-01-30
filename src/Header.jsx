@@ -5,6 +5,7 @@ import "./Header.css";
 import { ReactComponent as SearchLogo } from "./assets/searchLogo.svg";
 import { ReactComponent as UnicorneLogo } from "./assets/unicornLogo.svg";
 import { ReactComponent as Croix } from "./assets/croix.svg";
+import { ReactComponent as Filter } from "./assets/filter.svg";
 
 export default function Header({ search, setSearch }) {
   //const [search, setSearch] = useState();
@@ -41,20 +42,25 @@ export default function Header({ search, setSearch }) {
       >
         ulicorne.
       </div>
-      <div className="searchBar">
-        <button className="btnSearch">
-          <SearchLogo />
-        </button>
-        <input
-          className="inputSearch"
-          type="text"
-          placeholder="Search ..."
-          onChange={(e) => setSearch(e.target.value)}
-          id="inputSearch"
-        />
-        <div className="eraseSearch" onClick={eraseText}>
-          <Croix />
+      <div className="searchBarAndFilter">
+        <div className="searchBar">
+          <button className="btnSearch">
+            <SearchLogo />
+          </button>
+          <input
+            className="inputSearch"
+            type="text"
+            placeholder="Search ..."
+            onChange={(e) => setSearch(e.target.value)}
+            id="inputSearch"
+          />
+          <div className="eraseSearch" onClick={eraseText}>
+            <Croix />
+          </div>
         </div>
+        <button className="filterButton">
+          <Filter />
+        </button>
       </div>
       <div className="unicorne">
         <UnicorneLogo />
