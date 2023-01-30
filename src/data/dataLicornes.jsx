@@ -1,12 +1,29 @@
 export const dataLicornes = [
   {
+    name: "Ledger",
+    logo: "https://pbs.twimg.com/profile_images/1522608646043181060/QQRjVYhi_400x400.jpg",
+    banner:
+      "https://pbs.twimg.com/profile_banners/2652239532/1670337456/1500x500",
+    description:
+      "Ledger is a technology company specializing in digital assets security, providing hardware wallets and enterprise-level security solutions for cryptocurrencies and digital assets.",
+    tags: ["💸 fintech", "💻 tech"],
+    valuation: "12M€",
+    totalRaised: "262M€",
+    raised: [{}],
+    networks: {
+      website: "https://shop.ledger.com/",
+      linkedin: "https://www.linkedin.com/company/ledgerhq/",
+      twitter: "https://www.twitter.com/Ledger",
+    },
+  },
+  {
     name: "Lydia",
     logo: "https://pbs.twimg.com/profile_images/1582052073704669185/ZVM4FO7__400x400.jpg",
     banner:
       "https://pbs.twimg.com/profile_banners/389662765/1663857390/1500x500",
     description:
       "Lydia is a mobile payment company that offers a simple and fast payment solution using smartphone.",
-    tags: ["💸 fintech", "💻 tech", "💊 health", "🍔 food"],
+    tags: ["💸 fintech", "💻 tech"],
     valuation: "12M€",
     totalRaised: "262M€",
     raised: [
