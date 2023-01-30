@@ -42,7 +42,9 @@ export default function Sumup({ element }) {
             key={index}
           >
             <img src={imageSources[key]} alt="" className="logoNetworks" />
-            {element.networks[key]}
+            {element.networks[key].substring(
+              element.networks[key].indexOf("://") + 3
+            )}
           </a>
         ))}
       </div>
