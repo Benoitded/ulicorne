@@ -54,9 +54,9 @@ export const dataLicornes = [
       },
     ],
     networks: {
-      website: "www.lydia-app.com/",
-      linkedin: "www.linkedin.com/company/lydia/",
-      twitter: "www.twitter.com/applydia",
+      website: "https://www.lydia-app.com/",
+      linkedin: "https://www.linkedin.com/company/lydia/",
+      twitter: "https://www.twitter.com/applydia",
     },
   },
   {
@@ -70,8 +70,8 @@ export const dataLicornes = [
     valuation: "12M€",
     raised: "262M€",
     networks: {
-      website: "www.qonto.fr/",
-      linkedin: "www.linkedin.com/company/qonto/",
+      website: "https://www.qonto.fr/",
+      linkedin: "https://www.linkedin.com/company/qonto/",
       twitter: "www.twitter.com/getqonto",
     },
   },
@@ -86,8 +86,8 @@ export const dataLicornes = [
     valuation: "12M€",
     raised: "262M€",
     networks: {
-      website: "www.veepee.fr/",
-      linkedin: "www.linkedin.com/company/veepee/",
+      website: "https://www.veepee.fr/",
+      linkedin: "https://www.linkedin.com/company/veepee/",
       twitter: "www.twitter.com/veepee",
     },
   },
@@ -102,8 +102,8 @@ export const dataLicornes = [
     valuation: "12M€",
     raised: "262M€",
     networks: {
-      website: "www.ecovadis.com/",
-      linkedin: "www.linkedin.com/company/ecovadis/",
+      website: "https://www.ecovadis.com/",
+      linkedin: "https://www.linkedin.com/company/ecovadis/",
       twitter: "www.twitter.com/ecovadis",
     },
   },
@@ -118,8 +118,8 @@ export const dataLicornes = [
     valuation: "12M€",
     raised: "262M€",
     networks: {
-      website: "www.vestiairecollective.com",
-      linkedin: "www.linkedin.com/company/vestiaireco/",
+      website: "https://www.vestiairecollective.com",
+      linkedin: "https://www.linkedin.com/company/vestiaireco/",
       twitter: "www.twitter.com/vestiaireco",
       crunchbase: "https://www.crunchbase.com/organization/vestiairedecopines",
     },
@@ -135,8 +135,8 @@ export const dataLicornes = [
     valuation: "12M€",
     raised: "262M€",
     networks: {
-      website: "www.shift-technology.com/",
-      linkedin: "www.linkedin.com/company/shift-technology/",
+      website: "https://www.shift-technology.com/",
+      linkedin: "https://www.linkedin.com/company/shift-technology/",
       twitter: "www.twitter.com/shiftechnology",
     },
   },
@@ -151,8 +151,8 @@ export const dataLicornes = [
     valuation: "12M€",
     raised: "262M€",
     networks: {
-      website: "www.ivalua.com/",
-      linkedin: "www.linkedin.com/company/ivalua/",
+      website: "https://www.ivalua.com/",
+      linkedin: "https://www.linkedin.com/company/ivalua/",
       twitter: "www.twitter.com/ivalua",
     },
   },
@@ -162,13 +162,13 @@ export const dataLicornes = [
     banner:
       "https://pbs.twimg.com/profile_banners/375861459/1671741311/1500x500",
     description:
-      "Ecovadis is a sustainability rating and assessment platform for suppliers, providing companies with CSR performance scores and actionable insights.",
+      "Deezer is a music streaming service that provides users access to a vast library of songs and personalized playlists for a monthly subscription fee.",
     tags: ["💻 tech", "🎵 music"],
     valuation: "12M€",
     raised: "262M€",
     networks: {
-      website: "www.deezer.com/",
-      linkedin: "www.linkedin.com/company/deezer/",
+      website: "https://www.deezer.com/",
+      linkedin: "https://www.linkedin.com/company/deezer/",
       twitter: "www.twitter.com/deezer",
     },
   },
@@ -183,9 +183,89 @@ export const dataLicornes = [
     valuation: "12M€",
     raised: "262M€",
     networks: {
-      website: "www.blablacar.com/",
-      linkedin: "www.linkedin.com/company/blablacar/",
+      website: "https://www.blablacar.com/",
+      linkedin: "https://www.linkedin.com/company/blablacar/",
       twitter: "www.twitter.com/blablacar",
+    },
+  },
+  {
+    name: "Alan",
+    logo: "https://pbs.twimg.com/profile_images/1596970012484538369/mnXhoKbi_400x400.jpg",
+    banner:
+      "https://pbs.twimg.com/profile_banners/4827365218/1669582334/1500x500",
+    description:
+      "Alan is a digital health insurance platform that offers simple and personalized insurance policies to individuals.",
+    tags: ["💻 tech", "🪖 assurtech"],
+    valuation: "12M€",
+    raised: "262M€",
+    networks: {
+      website: "https://alan.com/",
+      linkedin: "https://www.linkedin.com/company/avec-alan/",
+      twitter: "www.twitter.com/avec_alan",
+    },
+  },
+  {
+    name: "Ankorstore",
+    logo: "https://pbs.twimg.com/profile_images/1519243585161469952/yPc1ed5u_400x400.png",
+    banner:
+      "https://pbs.twimg.com/profile_banners/1115896806041358337/1651050873/1500x500",
+    description:
+      "French online home improvement marketplace with competitive prices, easy product search, and fast delivery.",
+    tags: ["💻 tech", "🪖 assurtech"],
+    valuation: "12M€",
+    raised: "262M€",
+    networks: {
+      website: "http://www.ankorstore.com",
+      linkedin: "https://www.linkedin.com/company/ankorstore/",
+      twitter: "www.twitter.com/Ankorstore",
+    },
+  },
+  {
+    name: "Back market",
+    logo: "https://pbs.twimg.com/profile_images/1132906916777213952/kRLqQLzI_400x400.png",
+    banner:
+      "https://pbs.twimg.com/profile_banners/2855441857/1558941022/1500x500",
+    description:
+      "Platform selling refurbished electronics, promoting sustainability and providing high-quality devices at an affordable price.",
+    tags: ["💻 tech", "🪖 assurtech"],
+    valuation: "12M€",
+    raised: "262M€",
+    networks: {
+      website: "hhttp://www.backmarket.com",
+      linkedin: "https://www.linkedin.com/company/back-market/",
+      twitter: "www.twitter.com/back_market",
+    },
+  },
+  {
+    name: "Dental Monitoring",
+    logo: "https://pbs.twimg.com/profile_images/1451133880870871041/cswUEHbK_400x400.jpg",
+    banner:
+      "https://pbs.twimg.com/profile_banners/2328579067/1664981829/1500x500",
+    description:
+      "Dental Monitoring is a company that provides an AI-powered system to monitor and track orthodontic treatments.",
+    tags: ["💊 health", "💻 tech"],
+    valuation: "12M€",
+    raised: "262M€",
+    networks: {
+      website: "https://dental-monitoring.com/",
+      linkedin: "https://www.linkedin.com/company/dental-monitoring/",
+      twitter: "www.twitter.com/dentalmon",
+    },
+  },
+  {
+    name: "Front",
+    logo: "https://pbs.twimg.com/profile_images/1410457964637417473/7uA5cgIt_400x400.jpg",
+    banner:
+      "https://pbs.twimg.com/profile_banners/1134550592/1631800548/1500x500",
+    description:
+      "Front is a unified inbox platform that allows teams to manage and collaborate on all their customer communications in one place.",
+    tags: ["💻 tech"],
+    valuation: "12M€",
+    raised: "262M€",
+    networks: {
+      website: "https://www.front.com/",
+      linkedin: "https://www.linkedin.com/company/fronthq/",
+      twitter: "www.twitter.com/FrontHQ",
     },
   },
 ];
