@@ -16,7 +16,11 @@ export default function Footer() {
           </a>
         </div>
         <div>
-          <a href="" className="linkFooter">
+          <a
+            href="https://twitter.com/benoitded"
+            target="_blank"
+            className="linkFooter"
+          >
             propose update.
           </a>
         </div>
