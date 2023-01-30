@@ -145,7 +145,7 @@ export const dataSchools = [
   },
   {
     school: "INSEAD",
-    fullName: "Université Côte d'Azur",
+    fullName: "INSEAD",
     logo: "https://pbs.twimg.com/profile_images/1278214683015753731/e2JKmK2l_400x400.jpg",
     banner:
       "https://pbs.twimg.com/profile_banners/113381235/1674492125/1500x500",
@@ -158,5 +158,37 @@ export const dataSchools = [
     },
     country: "France",
     city: "Fontainebleau",
+  },
+  {
+    school: "Polytechnique",
+    fullName: "Polytechnique",
+    logo: "https://pbs.twimg.com/profile_images/472281214292746240/oLR-a7Bu_400x400.jpeg",
+    banner:
+      "https://pbs.twimg.com/profile_banners/278022309/1386853595/1500x500",
+    ranking: "1",
+    type: "💻 engineering",
+    networks: {
+      website: "http://www.polytechnique.edu",
+      linkedin: "https://www.linkedin.com/school/ecole-polytechnique/",
+      twitter: "https://twitter.com/Polytechnique",
+    },
+    country: "France",
+    city: "Paris",
+  },
+  {
+    school: "CentraleSupélec",
+    fullName: "CentraleSupélec",
+    logo: "https://pbs.twimg.com/profile_images/558982281335808000/haWFHSLH_400x400.jpeg",
+    banner:
+      "https://pbs.twimg.com/profile_banners/140418661/1642670718/1500x500",
+    ranking: "",
+    type: "💻 engineering",
+    networks: {
+      website: "https://www.centralesupelec.fr/",
+      linkedin: "https://www.linkedin.com/school/centralesupelec/",
+      twitter: "https://twitter.com/centralesupelec",
+    },
+    country: "France",
+    city: "Paris",
   },
 ];

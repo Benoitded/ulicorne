@@ -300,4 +300,119 @@ export const dataFounders = [
       },
     ],
   },
+  {
+    startup: "EcoVadis",
+    founders: [
+      {
+        name: "Pierre-Francois Thaler",
+        photo:
+          "https://pbs.twimg.com/profile_images/1311034368/image_400x400.jpg",
+        title: "Co-CEO",
+        schools: [
+          {
+            name: "INSEAD",
+            master: "MBA, Business Administration and Management, General",
+            graduateYear: "1999",
+          },
+          {
+            name: "CentraleSupélec",
+            master: "MSc, Electrical and Electronics Engineering",
+            graduateYear: "1993",
+          },
+          {
+            name: "Collège Stanislas Paris",
+            master: "Math Spé, Mathemactics",
+            graduateYear: "1990",
+          },
+        ],
+        experiences: [{}],
+        birthdate: "09/03/1976",
+        networks: {
+          linkedin: "https://www.linkedin.com/in/pfthaler/",
+          twitter: "https://twitter.com/pierrov",
+        },
+      },
+      {
+        name: "Frédéric Trinel",
+        photo:
+          "https://www.decideurs-magazine.com/images/01-MAGAZINE-DECIDEURS/01-ARTICLES/old/609bd9aa9863c.jpg",
+        title: "Co-CEO",
+        // https://www.ivalua.com/ivaluanow-popup/paris-2021-fr-pierre-francois-thaler/
+        schools: [
+          {
+            name: "INSEAD",
+            master: "MBA, Business Administration and Management, General",
+            graduateYear: "1999",
+          },
+          {
+            name: "CentraleSupélec",
+            master: "MSc, Electrical and Electronics Engineering",
+            graduateYear: "1993",
+          },
+        ],
+        experiences: [{}],
+        birthdate: "09/03/1976",
+        networks: {
+          linkedin: "https://www.linkedin.com/in/pfthaler/",
+          twitter: "https://twitter.com/pierrov",
+          crunchbase: "https://www.crunchbase.com/person/frederic-trinel",
+        },
+      },
+    ],
+  },
+  {
+    startup: "Shift Technology",
+    founders: [
+      {
+        name: "Jeremy Jawish",
+        photo:
+          "https://pbs.twimg.com/profile_images/378800000770886661/2fc4844ff7f4b7d55c86bab15acdc428_400x400.jpeg",
+        title: "CEO",
+        schools: [
+          {
+            name: "Université Paris VI",
+            master: "M2, Probabilités",
+            graduateYear: "2012",
+          },
+          {
+            name: "Polytechnique",
+            master: "Diplome d'ingénieur, Mathématiques appliquées",
+            graduateYear: "2011",
+          },
+        ],
+        experiences: [{}],
+        birthdate: "09/03/1976",
+        networks: {
+          linkedin: "https://www.linkedin.com/in/jeremy-jawish/",
+          twitter: "https://twitter.com/jawishj",
+          crunchbase: "https://www.crunchbase.com/person/jeremy-jawish",
+        },
+      },
+      {
+        name: "Eric Sibony",
+        photo:
+          "https://media.licdn.com/dms/image/C5603AQF60wEQrRaqKA/profile-displayphoto-shrink_800_800/0/1517519649467?e=1680739200&v=beta&t=xYdgtWWVJJctOFR8fnJc-9C3dW0qkbmuJiPHF-Mod3M",
+        title: "CSO",
+        schools: [
+          {
+            name: "INSEAD",
+            master: "MBA, Business Administration and Management, General",
+            graduateYear: "1999",
+          },
+          {
+            name: "CentraleSupélec",
+            master: "MSc, Electrical and Electronics Engineering",
+            graduateYear: "1993",
+          },
+        ],
+        experiences: [{}],
+        birthdate: "09/03/1976",
+        networks: {
+          linkedin: "https://www.linkedin.com/in/eric-sibony-94178949/",
+          twitter: "https://twitter.com/pierrov",
+          crunchbase: "https://www.crunchbase.com/person/frederic-trinel",
+        },
+      },
+    ],
+  },
 ];
