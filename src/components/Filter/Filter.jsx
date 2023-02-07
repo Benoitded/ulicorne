@@ -4,12 +4,14 @@ import { ReactComponent as Twitter } from "../../assets/twitter.svg";
 import website from "../../assets/website.svg";
 import twitter from "../../assets/twitter.svg";
 import linkedin from "../../assets/linkedin.svg";
+import facebook from "../../assets/facebook.svg";
 import { dataLicornes } from "../../data/dataLicornes";
 
 const imageSources = {
   website: website,
   twitter: twitter,
   linkedin: linkedin,
+  facebook: facebook,
 };
 
 const countryFlag = {
@@ -19,59 +21,69 @@ const countryFlag = {
 
 let boolAlpha = true;
 
-function sortFilter(e) {
-  console.log(e);
-  switch (e.target.id) {
-    case "alphabetic":
-      console.log("alphabetic sorting");
-      //console.log(dataLicornes);
-      if (boolAlpha) {
-        dataLicornes.sort((a, b) => {
-          if (a.name < b.name) {
-            return -1;
-          }
-          if (a.name > b.name) {
-            return 1;
-          }
-          return 0;
-        });
-      } else {
-        dataLicornes.sort((a, b) => {
-          if (a.name < b.name) {
-            return 1;
-          }
-          if (a.name > b.name) {
-            return -1;
-          }
-          return 0;
-        });
-      }
-      boolAlpha = !boolAlpha;
-      console.log(dataLicornes);
-      break;
-    case "valuation.":
-      console.log("valuation sorting");
-      break;
-    default:
-      console.log("No filter");
+// function sortFilter(setDataFiltered) {
+//   console.log("googo");
+//   if (boolAlpha) {
+//     setDataFiltered(
+//       dataLicornes.sort(function (a, b) {
+//         return a.name.localeCompare(b.name);
+//       })
+//     );
+//   } else {
+//     setDataFiltered(
+//       dataLicornes.sort(function (a, b) {
+//         return b.name.localeCompare(a.name);
+//       })
+//     );
+//   }
+//   boolAlpha = !boolAlpha;
+//   console.log(dataLicornes);
+// }
+
+function ascending(setDataFiltered) {
+  console.log("ascending");
+  setDataFiltered(
+    dataLicornes.sort(function (a, b) {
+      return a.name.localeCompare(b.name);
+    })
+  );
+}
+
+export default function Filter({ dataFiltered, setDataFiltered }) {
+  useEffect(() => {
+    console.log("dataFiltered");
+    console.log(dataFiltered);
+  }, [dataFiltered]);
+
+  function sortFilter(e) {
+    console.log(e);
+    switch (e.target.id) {
+      case "alphabetic":
+        console.log("alphabetic sorting");
+        //console.log(dataLicornes);
+        if (boolAlpha) {
+          setDataFiltered(
+            dataLicornes.sort(function (a, b) {
+              return a.name.localeCompare(b.name);
+            })
+          );
+        } else {
+          setDataFiltered(
+            dataLicornes.sort(function (a, b) {
+              return b.name.localeCompare(a.name);
+            })
+          );
+        }
+        boolAlpha = !boolAlpha;
+        console.log(dataLicornes);
+        break;
+      case "valuation.":
+        console.log("valuation sorting");
+        break;
+      default:
+        console.log("No filter");
+    }
   }
-}
-
-function plusPetitAuPlusGrand(data, a, b) {
-  data.sort((a, b) => {
-    if (a.name < b.name) {
-      return -1;
-    }
-    if (a.name > b.name) {
-      return 1;
-    }
-    return 0;
-  });
-}
-
-export default function Filter({ dataLicornes, setDataLicornes }) {
-  //   console.log("school.networks");
-  //   console.log(school.networks);
   return (
     <div className="filterBox">
       <div className="titleFilter">filter the ulicornes.</div>
@@ -81,17 +93,17 @@ export default function Filter({ dataLicornes, setDataLicornes }) {
           <button id="alphabetic" onClick={sortFilter}>
             alphabitic.
           </button>
-          <button>creation date.</button>
+          <button onClick={sortFilter}>creation date.</button>
           <button>valuation.</button>
           <button>money raised.</button>
         </div>
         <div className="oneFilter">
-          <div className="nameFilter">sort by</div>
+          <div className="nameFilter">founders' school.</div>
           <button id="alphabetic" onClick={sortFilter}>
-            alphabitic.
+            HEC.
           </button>
-          <button>creation date.</button>
-          <button>valuation.</button>
+          <button>ESSEC.</button>
+          <button>INSEAD.</button>
           <button>money raised.</button>
         </div>
       </div>

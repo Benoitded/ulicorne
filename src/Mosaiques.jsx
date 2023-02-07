@@ -8,7 +8,7 @@ export default function Mosaiques({ dataLicornes, setSearch }) {
   const [dataToDisplay, setDataToDisplay] = useState(dataLicornes);
   useEffect(() => {
     setDataToDisplay(dataLicornes);
-  }, []);
+  }, [dataLicornes]);
 
   const navigate = useNavigate();
 
@@ -30,9 +30,9 @@ export default function Mosaiques({ dataLicornes, setSearch }) {
   }
   return (
     <main>
-      <Filter dataLicornes={dataToDisplay} setDataLicornes={setDataToDisplay} />
+      {/* <Filter dataLicornes={dataToDisplay} setDataLicornes={setDataToDisplay} /> */}
       <div className="mainMosaiques">
-        {dataToDisplay.map(
+        {dataLicornes.map(
           ({ name, logo, banner, description, tags }, index) => (
             <button
               className="mosaique"

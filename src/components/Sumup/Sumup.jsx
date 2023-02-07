@@ -4,11 +4,13 @@ import { ReactComponent as Twitter } from "../../assets/twitter.svg";
 import website from "../../assets/website.svg";
 import twitter from "../../assets/twitter.svg";
 import linkedin from "../../assets/linkedin.svg";
+import facebook from "../../assets/facebook.svg";
 
 const imageSources = {
   website: website,
   twitter: twitter,
   linkedin: linkedin,
+  facebook: facebook,
 };
 
 export default function Sumup({ element }) {

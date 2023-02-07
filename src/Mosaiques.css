@@ -5,7 +5,7 @@
     justify-content: space-between;
     max-width: 1000px;
     width: 95vw;
-    margin: 20px auto;
+    margin: 0px auto;
     gap: 20px;
 }
 
@@ -76,6 +76,7 @@
     margin-top: 15px;
     font-size: 20px;
     font-weight: 600;
+    margin-right: -30px;
 }
 
 .nameMosaique:hover {
@@ -125,6 +126,9 @@
         margin-left: inherit;
         margin-top: 70px;
         gap: 15px;
+    }
+    .nameMosaique {
+        margin-right: -20px;
     }
     .bannerMosaique {
         height: 100px;

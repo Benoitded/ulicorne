@@ -2,10 +2,13 @@ import React, { Component } from "react";
 import Chart from "react-apexcharts";
 import ApexCharts from "apexcharts";
 import "./Chartboard.css";
+import { dataLicornes } from "../../data/dataLicornes.jsx";
 
 export default class App extends Component {
   constructor(props) {
     super(props);
+    console.log(dataLicornes[1].raised);
+    console.log(this.state);
 
     this.state = {
       series: [

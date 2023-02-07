@@ -16,21 +16,28 @@ export default function App() {
   useEffect(() => {
     const searchLower = search.toLowerCase().replaceAll(",", "");
     const searchTerms = searchLower.split(" ");
-    setDataFiltered(
-      dataLicornes.filter((item) => {
-        return (
-          item.name.toLowerCase().includes(searchLower) ||
-          searchTerms.every((term) =>
-            item.tags.some((tag) => tag.toLowerCase().includes(term))
-          )
-        );
-      })
-    );
+    // setDataFiltered(
+    //   dataLicornes.filter((item) => {
+    //     return (
+    //       item.name.toLowerCase().includes(searchLower) ||
+    //       searchTerms.every((term) =>
+    //         item.tags.some((tag) => tag.toLowerCase().includes(term))
+    //       ) ||
+    //       item.description.toLowerCase().includes(searchLower)
+    //     );
+    //   })
+    // );
+    console.log(dataFiltered);
   }, [search]);
   return (
     <div className="App">
       <Router>
-        <Header search={search} setSearch={setSearch} />
+        <Header
+          search={search}
+          setSearch={setSearch}
+          dataFiltered={dataFiltered}
+          setDataFiltered={setDataFiltered}
+        />
         <div className="App">
           <Routes>
             <Route
