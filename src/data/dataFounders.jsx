@@ -14,6 +14,7 @@ export const dataFounders = [
             graduateYear: "1995",
           },
         ],
+        experiences: [{}],
         birthdate: "21/09/1998",
         networks: {
           linkedin: "https://www.linkedin.com/in/cyrilchiche/",
@@ -37,6 +38,7 @@ export const dataFounders = [
             graduateYear: "2006",
           },
         ],
+        experiences: [{}],
         birthdate: "21/09/1998",
         networks: {
           linkedin: "https://www.linkedin.com/in/antoineporteproduct/",
@@ -71,6 +73,7 @@ export const dataFounders = [
             graduateYear: "2002",
           },
         ],
+        experiences: [{}],
         birthdate: "21/09/1998",
         networks: {
           linkedin: "https://www.linkedin.com/in/aprot/",
@@ -100,6 +103,7 @@ export const dataFounders = [
             graduateYear: "2006",
           },
         ],
+        experiences: [{}],
         birthdate: "21/09/1998",
         networks: {
           linkedin: "https://www.linkedin.com/in/steveanavi/",
@@ -138,6 +142,7 @@ export const dataFounders = [
             graduateYear: "1997",
           },
         ],
+        experiences: [{}],
         birthdate: "09/03/1976",
         networks: {
           linkedin: "https://www.linkedin.com/in/fredericmazzella/",
@@ -162,6 +167,7 @@ export const dataFounders = [
             graduateYear: "...",
           },
         ],
+        experiences: [{}],
         birthdate: "09/03/1976",
         networks: {
           linkedin: "https://www.linkedin.com/in/ja-granjon-859525176/",
@@ -183,6 +189,7 @@ export const dataFounders = [
             graduateYear: "2000",
           },
         ],
+        experiences: [{}],
         birthdate: "09/03/1976",
         networks: {
           linkedin: "https://www.linkedin.com/in/ilan-benhaim-5038191/",
@@ -209,6 +216,7 @@ export const dataFounders = [
             graduateYear: "2001",
           },
         ],
+        experiences: [{}],
         birthdate: "09/03/1976",
         networks: {
           linkedin: "https://www.linkedin.com/in/fanny-moizant-40665322/",
@@ -226,6 +234,7 @@ export const dataFounders = [
             master: "Economics and stylist graduate",
           },
         ],
+        experiences: [{}],
         birthdate: "09/03/1976",
         networks: {
           linkedin: "https://www.linkedin.com/in/sophie-hersan-971ab417/",
@@ -386,6 +395,73 @@ export const dataFounders = [
           linkedin: "https://www.linkedin.com/in/jeremy-jawish/",
           twitter: "https://twitter.com/jawishj",
           crunchbase: "https://www.crunchbase.com/person/jeremy-jawish",
+        },
+      },
+      {
+        name: "Eric Sibony",
+        photo:
+          "https://media.licdn.com/dms/image/C5603AQF60wEQrRaqKA/profile-displayphoto-shrink_800_800/0/1517519649467?e=1680739200&v=beta&t=xYdgtWWVJJctOFR8fnJc-9C3dW0qkbmuJiPHF-Mod3M",
+        title: "CSO",
+        schools: [
+          {
+            name: "INSEAD",
+            master: "MBA, Business Administration and Management, General",
+            graduateYear: "1999",
+          },
+          {
+            name: "CentraleSupélec",
+            master: "MSc, Electrical and Electronics Engineering",
+            graduateYear: "1993",
+          },
+        ],
+        experiences: [{}],
+        birthdate: "09/03/1976",
+        networks: {
+          linkedin: "https://www.linkedin.com/in/eric-sibony-94178949/",
+          twitter: "https://twitter.com/pierrov",
+          crunchbase: "https://www.crunchbase.com/person/frederic-trinel",
+        },
+      },
+    ],
+  },
+  {
+    startup: "Ledger",
+    founders: [
+      {
+        name: "Eric Lerchevêque",
+        photo:
+          "https://pbs.twimg.com/profile_images/1604472451441852417/AWlxWBIs_400x400.jpg",
+        title: "CEO",
+        schools: [
+          {
+            name: "ESIEE PARIS",
+            master:
+              "Master of Science (MSc), Electronic and Computer Science, Conception de Architectures de Traitement de 'Information (CATI)",
+            graduateYear: "2012",
+          },
+        ],
+        experiences: [
+          {
+            name: "Co-Founder",
+            master: "Algosup",
+            graduateYear: "2019 - today",
+          },
+          {
+            name: "Membre du board & Co-Founder",
+            master: "Algosup",
+            graduateYear: "2014 - today",
+          },
+          {
+            name: "Membre du board & Co-Founder",
+            master: "Coinhouse",
+            graduateYear: "2014 - today",
+          },
+        ],
+        birthdate: "09/03/1976",
+        networks: {
+          linkedin: "https://www.linkedin.com/in/ericlarch/",
+          twitter: "https://twitter.com/EricLarch",
+          crunchbase: "https://www.crunchbase.com/person/eric-larchevque",
         },
       },
       {
